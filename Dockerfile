@@ -1,8 +1,8 @@
-FROM quay.io/gurusensei/gurubhay:latest
 
-RUN git clone https://github.com/Guru322/GURU-Ai /root/guru
 
-WORKDIR /root/guru/
+RUN git clone https://github.com/Opaksfire/FIRE-MD
+
+WORKDIR main
 
 RUN npm install --platform=linuxmusl
 
