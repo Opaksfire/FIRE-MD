@@ -69,11 +69,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ▢ Instagram :
   • https://instagram.com/OPAKSFIRE 
 ▢ GitHub :
-  • https://github.com/
+  • https://github.com/Opaksfire/FIRE-MD
 ▢ Telegram : 
   • t.me/i 
 ▢ YouTube : 
-  • https://youtube.com/@
+  • https://youtube.com/@firenation-1?si=1NUPuc6idSkmSoga
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
