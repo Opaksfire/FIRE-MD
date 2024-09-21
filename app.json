@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-Automation",
-  "description": " Whatsapp Ai.",
+  "name": "FIRE MD",
+  "description": " BRINGING FORTH A NEW REVOLUTION.",
   "keywords": [
-    "whatsapp Ai"
+    "FIRE MD"
   ],
-  "repository": "",
+  "repository": "https://github.com/Opaksfire/FIRE-MD/tree/main",
   "stack": "container",
   "env": {
     "OWNERS": {
