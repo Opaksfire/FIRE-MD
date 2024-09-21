@@ -1,7 +1,7 @@
 {
     "name": "FIRE MD",
     "version": "2.1.0",
-    "description": "A FIRE NATION BOT BY OPAKSFIRE",
+    "description": "A FIRE NATION  BY OPAKSFIRE",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -17,14 +17,7 @@
         "test": "node test.js"
     },
     "keywords": [
-        "termux-whatsapp-bot",
-        "whatsapp-bot",
-        "whatsapp",
-        "js-whatsapp",
-        "whatsapp",
-        "multi-device",
-        "MD",
-        "baileys-md"
+       
     ],
     "homepage": "https://github.com/Opaksfire/FIRE-MD/",
     "author": {
