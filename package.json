@@ -22,22 +22,20 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "guru-bot",
-        "GURU-bot-md",
         "multi-device",
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Guru322/GURU-BOT",
+    "homepage": "https://github.com/Opaksfire/FIRE-MD/",
     "author": {
         "name": "OPAKSFIRE"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Guru322/GURU-BOT.git"
+        "url": "git+https://github.com/Opaksfire/FIRE-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/Guru322/GURU-BOT/issues"
+        "url": "https://github.com/Opaksfire/FIRE-MD/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
