@@ -1,7 +1,7 @@
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 
 let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, command }) => {
-  if (!args || !args[0]) throw `✳️ Example :\n${usedPrefix + command} https://youtu.be/YzkTFFwxtXI`
+  if (!args || !args[0]) throw `✳️ Example :\n${usedPrefix + command} https://youtube.com/@firenation-1?si=1NUPuc6idSkmSoga`
   if (!args[0].match(/youtu/gi)) throw `❎ Verify that it is a YouTube link.`
 
   m.react(rwait)
