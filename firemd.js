@@ -1,3 +1,4 @@
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
 import './config.js'
 
 import dotenv from 'dotenv'
@@ -93,7 +94,7 @@ async function gandu() {
       'base64'
     ).toString()
     const endi = Buffer.from(
-      `U2VjdXJpdHkgY2hlY2sgcGFzc2VkLCBUaGFua3MgRm9yIHVzaW5nIEd1cnUgTXVsdGlEZXZpY2U=`,
+      `U2VjdXJpdHkgY2hlY2sgcGFzc2VkLCBUaGFua3MgZm9yIHVzaW5nIEZpcm1k`,
       'base64'
     ).toString()
 
