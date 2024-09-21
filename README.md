@@ -12,7 +12,7 @@
 <a href="https://github.com/Opaksfire/FIRE-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Opaksfire/FIRE-MD?&style=social"></a>
 <a href="https://github.com/Opaksfire/FIRE-MD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Opaksfire/FIRE-MD?style=social"></a>
 <a href="https://github.com/Opaksfire/FIRE-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Opaksfire/FIRE-MD?label=Watching&style=social"></a>
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FOpaksfirs%2FFIRE-MD?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FOpaksfire%2FFIRE-MD.svg?type=shield"/></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FOpaksfirs%2FFIRE-MD?ref=badge_shield" alt="FOSSA Status"><img sarc="https://app.fossa.com/api/projects/git%2Bgithub.com%2FOpaksfire%2FFIRE-MD.svg?type=shield"/></a>
 </p>
 
 ####  
@@ -95,6 +95,9 @@ Thanks 🙏🏿 To DAVID CYRIL AND DG XEON FOR THEIR TEACHINGS
 
 <h2 align="center">  NOTICE
 </h2>
+
+## Follow our YouTube channel for free tutorials 
+<a href='https://youtube.com/@firenation-1?si=oejjr_WwBHs30gAR' target="_blank"><img alt='Follow on youtube' src='https://img.shields.io/badge/Follow on YouTube-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
    
 ## 
 - Not For Sale
