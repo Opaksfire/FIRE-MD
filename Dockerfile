@@ -1,11 +1,26 @@
+FROM node:lts-buster
+
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  npm i pm2 -g && \
+  rm -rf /var/lib/apt/lists/*
+  
+RUN  git clone https://github.com/Opaksfire/FIRE-MD  /root/Opaksfire
+WORKDIR /root/Opaksfire/
 
 
-RUN git clone https://github.com/Opaksfire/FIRE-MD
 
-WORKDIR main
+COPY package.json .
+RUN npm install pm2 -g
+RUN npm install --legacy-peer-deps
 
-RUN npm install --platform=linuxmusl
+COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
+
