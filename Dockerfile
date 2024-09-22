@@ -6,12 +6,18 @@ RUN apt-get update && \
   imagemagick \
   webp && \
   apt-get upgrade -y && \
+  npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
+  
 
-RUN npm install && npm install qrcode-terminal 
+
+
+COPY package.json .
+RUN npm install pm2 -g
+RUN npm install --legacy-peer-deps
 
 COPY . .
 
-EXPOSE 3000 
+EXPOSE 3000
 
-CMD ["npm start", "npm run"] 
+CMD ["npm","start" ]
