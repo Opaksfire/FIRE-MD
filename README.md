@@ -35,6 +35,13 @@ This project  uses Mega.nz's services exclusively for generating session IDs. Th
 <a href='https://replit.com/@opaksmt/Fire-MD-bot-pair?v=1' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
+### DEPLOY ON PANEL 
+
+1. This is a different type of panel free panel better than bot-hosting
+2. Watch the tutorial on our YouTube channel
+    <br>
+<p align="center"><a href="https://breezehost.xyz"> <img src="https://img.shields.io/badge/FREE-PANEL%20Account-red?style=for-the-badge&logo=Free-Panel" width="220" height="38.45"/></a></p>  
+
 #### DEPLOY TO Toystack
 
 1. If You don't have an account in Toystack. Create an account.
