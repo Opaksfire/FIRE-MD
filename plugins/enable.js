@@ -255,10 +255,12 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 ⛊ jarvis
 ⛊ antispam
 ⛊ antitoxic
+🔥 antilink2
 ╰──────────⳹ 
 ◈──『 *USERS*』───⳹
 ⛊ autolevelup
 ⛊ chatbot 
+🌚 public
 ╰──────────⳹
 ◈──『 *OWNER*』───⳹
 ⛊ onlydm
