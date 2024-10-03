@@ -78,9 +78,9 @@ handler.before = async (m, { conn }) => {
   }
 }
 
-handler.help = ['play']
+handler.help = ['play,song']
 handler.tags = ['downloader']
-handler.command = /^(play)$/i
+handler.command = /^(song)$/i
 handler.limit = true
 export default handler
 
