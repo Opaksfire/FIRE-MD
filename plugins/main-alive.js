@@ -2,9 +2,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
   var vn = './Assets/mp3/Alive.mp3'
-  let url = 'https://github.com/Gu'
+  let url = 'https://github.com/Opaksfire/FIRE-MD'
   let murl = 'https:/'
-  let img = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg'
+  let img = 'https://i.imgur.com/tStJm2M.jpeg'
   let con = {
     key: {
       fromMe: false,
