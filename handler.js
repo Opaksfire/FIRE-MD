@@ -526,8 +526,8 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' // Assign default image URL
-            ppgp = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' // Assign default image URL
+            pp = 'https://i.imgur.com/tStJm2M.jpeg' // Assign default image URL
+            ppgp = 'https://i.imgur.com/tStJm2M.jpeg' // Assign default image URL
           } finally {
             let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
               .replace('@group', await this.getName(id))
@@ -537,14 +537,14 @@ export async function participantsUpdate({ id, participants, action }) {
             let nthMember = groupMetadata.participants.length
             let secondText = `Welcome, ${await this.getName(user)}, our ${nthMember}th member`
 
-            let welcomeApiUrl = `https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg${encodeURIComponent(
+            let welcomeApiUrl = `https://i.imgur.com/tStJm2M.jpeg${encodeURIComponent(
               await this.getName(user)
             )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
               ppgp
             )}&memberCount=${encodeURIComponent(
               nthMember.toString()
             )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-              'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg'
+              'https://i.imgur.com/tStJm2M.jpeg'
             )}`
 
             try {
@@ -559,7 +559,7 @@ export async function participantsUpdate({ id, participants, action }) {
                     title: 'FIRE MD',
                     body: 'welcome to Group',
                     thumbnailUrl: welcomeApiUrl,
-                    sourceUrl: 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp',
+                    sourceUrl: 'https://chat.whatsapp.com/HdVppfPgGL4KM0QNqZyadR',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
@@ -583,8 +583,8 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' // Assign default image URL
-            ppgp = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg' // Assign default image URL
+            pp = 'https://i.imgur.com/tStJm2M.jpeg' // Assign default image URL
+            ppgp = 'https://i.imgur.com/tStJm2M.jpeg' // Assign default image URL
           } finally {
             let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user').replace(
               '@user',
@@ -594,14 +594,14 @@ export async function participantsUpdate({ id, participants, action }) {
             let nthMember = groupMetadata.participants.length
             let secondText = `Goodbye, our ${nthMember}th group member`
 
-            let leaveApiUrl = `https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg${encodeURIComponent(
+            let leaveApiUrl = `https://i.imgur.com/tStJm2M.jpeg${encodeURIComponent(
               await this.getName(user)
             )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
               ppgp
             )}&memberCount=${encodeURIComponent(
               nthMember.toString()
             )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-              'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg'
+              'https://i.imgur.com/tStJm2M.jpeg'
             )}`
 
             try {
@@ -616,7 +616,7 @@ export async function participantsUpdate({ id, participants, action }) {
                     title: 'FIRE MD',
                     body: 'Goodbye from  Group',
                     thumbnailUrl: leaveApiUrl,
-                    sourceUrl: 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp',
+                    sourceUrl: 'https://chat.whatsapp.com/HdVppfPgGL4KM0QNqZyadR',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
