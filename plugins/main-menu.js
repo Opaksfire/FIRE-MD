@@ -546,7 +546,8 @@ ${readMore}
      
 
 🔥───『 *INFO*』───🔥 
-│*Reply with the number*
+│*note: always remember to use .cleartmp once a day for your bot to last 
+ Reply with the number*
 │ to get respected Menu or type the command e.g [.botmenu]*
 ╰───────⳹
 ╭───────⳹
