@@ -42,6 +42,13 @@ This project  uses Mega.nz's services exclusively for generating session IDs. Th
     <br>
 <p align="center"><a href="https://www.evoshosting.com"> <img src="https://img.shields.io/badge/FREE-PANEL%20Account-red?style=for-the-badge&logo=Free-Panel" width="220" height="38.45"/></a></p>  
 
+### DEPLOY ON SECOND PANEL 
+
+1. it came to my notice that evoshosting is having errors so i did a tutorial and added another panel
+2. Watch the new tutorial video on our YouTube channel 
+    <br>
+<p align="center"><a href="https://dashbeta.astralaxis.tech"> <img src="https://img.shields.io/badge/FREE-PANEL2%20Account-red?style=for-the-badge&logo=Free-Panel2" width="220" height="38.45"/></a></p>  
+
 #### DEPLOY TO Toystack
 
 1. If You don't have an account in Toystack. Create an account.
