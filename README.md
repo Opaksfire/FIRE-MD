@@ -47,7 +47,7 @@ This project  uses Mega.nz's services exclusively for generating session IDs. Th
 1. it came to my notice that evoshosting is having errors so i did a tutorial and added another panel
 2. Watch the new tutorial video on our YouTube channel 
     <br>
-<p align="center"><a href="https://account.solarhosting.cc/login"> <img src="https://img.shields.io/badge/FREE-PANEL2%20Account-red?style=for-the-badge&logo=Free-Panel2" width="220" height="38.45"/></a></p>  
+<p align="center"><a href="https://dash.daki.cc"> <img src="https://img.shields.io/badge/FREE-PANEL2%20Account-red?style=for-the-badge&logo=Free-Panel2" width="220" height="38.45"/></a></p>  
 
 #### DEPLOY TO Toystack
 
